@@ -67,10 +67,6 @@
   width: 200px;
 }
 
-.secondary img {
-  height: 18px;
-}
-
 .secondary a {
   color: #5F1E02;
   font-weight: 400;
@@ -89,14 +85,29 @@
 
 .secondary a:hover #blog-icon {
   background-image: url(../svg/blog-hover.svg); 
+  -webkit-transition: All 0 0.1s ease;
+     -moz-transition: All 0 0.1s ease;
+       -o-transition: All 0 0.1s ease;
+      -ms-transition: All 0 0.1s ease;
+          transition: All 0 0.1s ease;
 }
 
 .secondary a:hover #about-icon {
   background-image: url(../svg/about-hover.svg);
+  -webkit-transition: All 0 0.1s ease;
+     -moz-transition: All 0 0.1s ease;
+       -o-transition: All 0 0.1s ease;
+      -ms-transition: All 0 0.1s ease;
+          transition: All 0 0.1s ease;
 }
 
 .secondary a:hover #tutorials-icon {
   background-image: url(../svg/tutorials-hover.svg);
+  -webkit-transition: All 0 0.1s ease;
+     -moz-transition: All 0 0.1s ease;
+       -o-transition: All 0 0.1s ease;
+      -ms-transition: All 0 0.1s ease;
+          transition: All 0 0.1s ease;
 }
 
 .secondary p {
@@ -104,21 +115,23 @@
 }
 
 .teaser-icon {
-  width: 18px;
-  height: 18px; 
+  width: 20px;
+  height: 20px; 
   display: inline-block;
   background-size: contain;
   background-repeat: no-repeat;
   padding-right: 5px;
   padding-top: -5px;
-  -webkit-transition: All 0.3s ease;
-     -moz-transition: All 0.3s ease;
-       -o-transition: All 0.3s ease;
-      -ms-transition: All 0.3s ease;
-          transition: All 0.3s ease;
+  -webkit-transition: none;
+     -moz-transition: none;
+       -o-transition: none;
+      -ms-transition: none;
+          transition: none;
+
+          /* make some sort of delay on the icons for .3s */
 }
 
-#blog-icon {
+#blog-icon { 
   background-image: url(../svg/blog.svg);
 }
 
