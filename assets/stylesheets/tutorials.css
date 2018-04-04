@@ -1,0 +1,75 @@
+/*					tutorials						*/
+
+body {
+	min-width: 1000px;
+}
+
+.banner {
+  border-bottom: #D16333 1px solid;
+  color: #5E1E02;
+  text-transform: uppercase;
+  text-align: center;
+  padding: 75px; 
+}
+
+.filters {
+	display: flex;
+	justify-content: space-between;
+	padding: 40px 90px 0 90px;
+}
+
+.image-row {
+	display: flex;
+	justify-content: space-around;
+	margin: 40px 40px;
+}
+
+.image-row a {
+	color: #5E1E02;
+}
+
+.thumbnail {
+	height: 281px;
+	width: 281px;
+	margin-bottom: 20px;
+}
+
+#long-tail-cast-on {
+	background-image: url(../svg/long-tail-cast-on.svg);
+}
+
+#cable-stitch {
+	background-image: url(../svg/cable-stitch.svg);
+}
+
+#three-needle-bind-off {
+	background-image: url(../svg/three-needle-bind-off.svg);
+}
+
+#picking-up-stitches {
+	background-image: url(../svg/picking-up-stitches.svg);
+}
+
+#kitchner-stitch {
+	background-image: url(../svg/kitchner-stitch.svg);
+}
+
+#brioche-stitch {
+	background-image: url(../svg/brioche-stitch.svg);
+}
+
+#magic-loop {
+	background-image: url(../svg/magic-loop.svg);
+}
+
+#rik-rak-rib-stitch {
+	background-image: url(../svg/rik-rak-rib-stitch.svg);
+}
+
+#slip-slip-knit {
+	background-image: url(../svg/slip-slip-knit.svg);
+}
+
+.bottom-row {
+	margin-bottom: 80px;
+}
