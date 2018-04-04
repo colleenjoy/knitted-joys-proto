@@ -1,0 +1,33 @@
+
+<svg width="338px" height="194px" viewBox="0 0 338 194" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 49.1 (51147) - http://www.bohemiancoding.com/sketch -->
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <rect id="path-1" x="0" y="20" width="338" height="174" rx="10"></rect>
+        <rect id="path-2" x="29" y="0" width="44" height="21"></rect>
+    </defs>
+    <g id="Welcome" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Landing" transform="translate(-894.000000, -843.000000)">
+            <g id="Inspiration" transform="translate(860.000000, 843.000000)">
+                <g id="Inspiration-Sketch" transform="translate(34.000000, 0.000000)">
+                    <g id="Rectangle-8">
+                        <use fill="#FFFFFF" fill-rule="evenodd" xlink:href="#path-1"></use>
+                        <rect stroke="#D16333" stroke-width="1" x="0.5" y="20.5" width="337" height="173" rx="10"></rect>
+                    </g>
+                    <rect id="Rectangle-9" stroke="#D16333" x="269.5" y="33.5" width="49" height="29" rx="10"></rect>
+                    <path d="M2.5,170.5 L337.5,170.5" id="Line-7" stroke="#D16333" stroke-linecap="square"></path>
+                    <path d="M1.5,71.5 L336.5,71.5" id="Line-7" stroke="#D16333" stroke-linecap="square"></path>
+                    <circle id="Oval-3" stroke="#D16333" fill="#FFFFFF" cx="169" cy="107" r="75"></circle>
+                    <circle id="Oval-3" stroke="#D16333" fill="#FFFFFF" cx="169" cy="107" r="65"></circle>
+                    <circle id="Oval-3" stroke="#D16333" fill="#FFFFFF" cx="39" cy="70" r="18"></circle>
+                    <circle id="Oval-3" stroke="#D16333" fill="#FFFFFF" cx="39" cy="70" r="10"></circle>
+                    <g id="Rectangle-10">
+                        <use fill="#FFFFFF" fill-rule="evenodd" xlink:href="#path-2"></use>
+                        <rect stroke="#D16333" stroke-width="1" x="29.5" y="0.5" width="43" height="20"></rect>
+                    </g>
+                    <circle id="Oval-3" stroke="#D16333" cx="169" cy="107" r="25"></circle>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

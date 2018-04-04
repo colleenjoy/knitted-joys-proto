@@ -1,0 +1,36 @@
+
+<svg width="26px" height="25px" viewBox="0 0 26 25" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 49.1 (51147) - http://www.bohemiancoding.com/sketch -->
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <ellipse id="path-1" cx="23.1391222" cy="11.5394251" rx="1" ry="1"></ellipse>
+        <ellipse id="path-2" cx="0.936651861" cy="11.5193045" rx="1" ry="1"></ellipse>
+    </defs>
+    <g id="Welcome" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Landing" transform="translate(-1010.000000, -1408.000000)">
+            <g id="Teasers" transform="translate(-1.000000, 1283.000000)">
+                <g id="Group" transform="translate(1011.000000, 125.000000)">
+                    <g id="Oval-7" transform="translate(23.139122, 11.539425) rotate(-100.000000) translate(-23.139122, -11.539425) ">
+                        <use fill="#5E1E02" fill-rule="evenodd" xlink:href="#path-1"></use>
+                        <ellipse stroke="#5E1E02" stroke-width="1" cx="23.1391222" cy="11.5394251" rx="1" ry="1"></ellipse>
+                    </g>
+                    <polygon id="Triangle-2" stroke="#5E1E02" fill="#5E1E02" points="12.2347432 0.892857143 15.9084033 4.57526146 8.30644177 5.04530232"></polygon>
+                    <rect id="Rectangle-11" stroke="#5E1E02" fill="#5E1E02" x="7.25806452" y="4.46428571" width="9.92555831" height="5.64449918" rx="2.82224959"></rect>
+                    <rect id="Rectangle-11" stroke="#FDC6AE" fill="#FDC6AE" x="16.1290323" y="3.66069249" width="7.60196153" height="5.64449918" rx="2.82224959"></rect>
+                    <rect id="Rectangle-11" stroke="#5E1E02" fill="#5E1E02" x="7.82259049" y="9.01783534" width="9.92555831" height="5.64449918" rx="2.82224959"></rect>
+                    <rect id="Rectangle-11" stroke="#5E1E02" fill="#5E1E02" x="7.25806452" y="13.4821211" width="9.92555831" height="5.64449918" rx="2.82224959"></rect>
+                    <rect id="Rectangle-11" stroke="#5E1E02" fill="#5E1E02" x="7.98389066" y="17.8571429" width="9.92555831" height="5.64449918" rx="2.82224959"></rect>
+                    <rect id="Rectangle-11" stroke="#FDC6AE" fill="#FDC6AE" x="17.0161093" y="13.3035932" width="7.60196153" height="5.64449918" rx="2.82224959"></rect>
+                    <rect id="Rectangle-11" stroke="#FDC6AE" fill="#FDC6AE" x="1.51714517" y="18.6607361" width="7.60196153" height="5.64449918" rx="2.82224959"></rect>
+                    <rect id="Rectangle-11" stroke="#FDC6AE" fill="#FDC6AE" x="0.630068089" y="8.92857143" width="7.60196153" height="5.64449918" rx="2.82224959"></rect>
+                    <g id="Oval-7" transform="translate(0.936652, 11.519305) rotate(-2.000000) translate(-0.936652, -11.519305) ">
+                        <use fill="#5E1E02" fill-rule="evenodd" xlink:href="#path-2"></use>
+                        <ellipse stroke="#5E1E02" stroke-width="1" cx="0.936651861" cy="11.5193045" rx="1" ry="1"></ellipse>
+                    </g>
+                    <path d="M12.5,0.496031746 L22.983871,11.1607143" id="Line-3" stroke="#5E1E02" stroke-width="0.4" stroke-linecap="square"></path>
+                    <path d="M12.0967742,0.476190476 L1.20967742,11.1607143" id="Line-2" stroke="#5E1E02" stroke-width="0.4" stroke-linecap="square"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

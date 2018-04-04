@@ -1,0 +1,22 @@
+
+<svg width="26px" height="24px" viewBox="0 0 26 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 49.1 (51147) - http://www.bohemiancoding.com/sketch -->
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Welcome" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Landing" transform="translate(-216.000000, -1360.000000)">
+            <g id="Teasers" transform="translate(0.000000, 1284.000000)">
+                <g id="Blog-Posts-Sketch" transform="translate(216.000000, 76.000000)">
+                    <rect id="Rectangle-12" stroke="#5E1E02" x="6.07142857" y="0.5" width="19.4285714" height="23" rx="3"></rect>
+                    <g id="pencil" transform="translate(0.000000, 7.384615)">
+                        <path d="M0.278571429,0.288461538 L9.41571429,7.38461538" id="Line-9" stroke="#5E1E02" stroke-linecap="square"></path>
+                        <polygon id="Triangle-3" fill="#5E1E02" transform="translate(10.020004, 8.117112) rotate(128.000000) translate(-10.020004, -8.117112) " points="9.83429014 7.25172752 10.1128616 8.98249675 9.55571871 8.98249675"></polygon>
+                    </g>
+                    <path d="M9.56832298,5.53846154 L22.0031056,5.53846154" id="Line-10" stroke="#5E1E02" stroke-linecap="square"></path>
+                    <path d="M9.56832298,9.23076923 L22.0031056,9.23076923" id="Line-10" stroke="#5E1E02" stroke-linecap="square"></path>
+                    <path d="M9.56832298,12.9230769 L22.0031056,12.9230769" id="Line-10" stroke="#5E1E02" stroke-linecap="square"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

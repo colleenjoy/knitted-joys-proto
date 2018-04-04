@@ -1,124 +1,26 @@
-html, body, div, span, applet, object, iframe,
-h1, h2, h3, h4, h5, h6, p, blockquote, pre,
-a, abbr, acronym, address, big, cite, code,
-del, dfn, em, img, ins, kbd, q, s, samp,
-small, strike, strong, sub, sup, tt, var,
-b, u, i, center,
-dl, dt, dd, ol, ul, li,
-fieldset, form, label, legend,
-table, caption, tbody, tfoot, thead, tr, th, td,
-article, aside, canvas, details, embed,
-figure, figcaption, footer, header, hgroup,
-menu, nav, output, ruby, section, summary,
-time, mark, audio, video {
-  margin: 0;
-  padding: 0;
-  border: 0;
-  font-size: 100%;
-  font: inherit;
-  vertical-align: baseline;
-}
-/* HTML5 display-role reset for older browsers */
-article, aside, details, figcaption, figure,
-footer, header, hgroup, menu, nav, section {
-  display: block;
-}
-body {
-  line-height: 1;
-}
-ol, ul {
-  list-style: none;
-}
-blockquote, q {
-  quotes: none;
-}
-blockquote:before, blockquote:after,
-q:before, q:after {
-  content: '';
-  content: none;
-}
-table {
-  border-collapse: collapse;
-  border-spacing: 0;
-}
+/*                           About Me                        */
 
-body {
-  min-width: 800px;
-}
-
-header {
-  display: flex;
-  justify-content: space-between;
-  background: #FDC7AF;
-  border-top: #5E1E02 4px solid;
-  border-bottom: #D16333 1px solid;
-  padding: 50px 40px;
+.banner {
+  border: #D16333 1px solid;
+  border-top: none;
   color: #5E1E02;
-}
-
-header a {
-  color: #D16333;
-}
-
-header a:hover {
-  color: #fff;
-}
-
-.tagline-nav {
-  text-align: right;
-}
-
-.hero {
-  height: 300px;
-  background: blue;
-}
-
-.primary-teaser img {
-  height: 100px;
-  width: 200px;
-  background: orange;
-}
-
-.primary {
-  display: flex;
-  justify-content: space-around;
-}
-
-.secondary-teaser {
-  width: 150px;
-  background: orange;
-}
-
-.secondary {
-  display: flex;
-  justify-content: space-around;
-}
-
-footer {
-  display: flex;
-  justify-content: space-between;
-  background: orange;
-  height: 75px;
-}
-
-.logo {
-  font: 200 3rem/1em "Lato", "Helvetica Neue", Arial, sans-sarif;
   text-transform: uppercase;
+  text-align: center;
+  font-size: 2.5rem;
+  padding: 75px; 
 }
 
-a {
-  text-decoration: none;
-}
 
-.tagline {
-  margin: 20px 0;
-  font: 300 1.3rem/1em "Lato", "Helvetica Neue", Arial, sans-sarif;
-}
 
-nav {
- font: 500 .8rem/1em "Lato", "Helvetica Neue", Arial, sans-sarif; 
-}
 
-nav a {
-  margin-left: 40px;
-}
+
+
+
+
+
+
+
+
+
+
+

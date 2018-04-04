@@ -1,0 +1,151 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol, ul {
+  list-style: none;
+}
+blockquote, q {
+  quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/*                    font styles               */
+
+
+body {
+  min-width: 800px;
+  font: 300 16px/22px "Lato", "Helvetica Neue", Arial, sans-sarif;;
+}
+
+h1 {
+  font-size: 2.5rem;
+}
+
+h2 {
+  font-size: 1.7rem;
+  line-height: 1em;
+}
+
+h3 {
+  font-size: 1.3rem;
+  line-height: 1em;
+}
+
+h5 {
+  font-size: 1rem;
+  line-height: 1em;
+  font-weight: 600;
+  font-variant: small-caps;
+}
+
+p {
+  font-size: .9rem; 
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  background: #FDC7AF;
+  border-top: #5E1E02 4px solid;
+  border-bottom: #D16333 1px solid;
+  padding: 50px 40px;
+  color: #5E1E02;
+}
+
+header a,
+footer a {
+  color: #D16333;
+  font-variant: small-caps;
+  -webkit-transition: All 0.3s ease;
+     -moz-transition: All 0.3s ease;
+       -o-transition: All 0.3s ease;
+      -ms-transition: All 0.3s ease;
+          transition: All 0.3s ease;
+}
+
+header a:hover,
+footer a:hover {
+  color: hsla(0, 0%, 100%, 0.83);
+}
+
+.tagline-nav {
+  text-align: right;
+}
+
+footer {
+  display: flex;
+  justify-content: space-between;
+  background: #FDC7AF;
+  height: 20px;
+  color: #D16333;
+  font-weight: 500;
+  font-size: 12px;
+  padding: 20px 40px;
+}
+
+.logo {
+  font-weight: 200;
+  font-size: 3rem;
+  line-height: 1em;
+  text-transform: uppercase;
+}
+
+a {
+  text-decoration: none;
+}
+
+.tagline {
+  margin: 20px 0;
+  font-weight: 300;
+  font-size: 1.3rem;
+}
+
+nav {
+ font-weight: 500;
+ font-size: .8rem; 
+}
+
+nav a {
+  margin-left: 40px;
+}
+
+footer nav {
+  font-size: .7rem;
+}
+
+footer nav a {
+  margin-left: 20px;
+}
