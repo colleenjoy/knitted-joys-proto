@@ -4,14 +4,6 @@ body {
   min-width: 1200px;
 }
 
-.banner {
-  border-bottom: #D16333 1px solid;
-  color: #5E1E02;
-  text-transform: uppercase;
-  text-align: center;
-  padding: 75px; 
-}
-
 .about-image {
   width: 560px;
   height: 490px;

@@ -1,0 +1,89 @@
+/*				Inspiration 					*/
+
+
+.image-grid {
+	height: 1500px;
+	width: 1065px;
+	position: relative;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 120px;
+}
+
+.inspo-image {
+	border: 25px solid #FFE6DB;
+}
+
+#wak-shirt {
+	height: 834px;
+	width: 600px;
+	background-image: url(../svg/wak-shirt.svg);
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	z-index: 1;
+}
+
+#stitch-unwind {
+	height: 417px;
+	width: 425px;
+	background-image: url(../svg/stitch-unwind.svg);
+	position: absolute;
+	top: 510px;
+	left: 325px;
+	z-index: 3;
+}
+
+#purl-cable {
+	height: 592px;
+	width: 395px;
+	background-image: url(../svg/purl-cable.svg);
+	position: absolute;
+	top: 0px;
+	left: 605px; 
+}
+
+#ravelry-bunny-hat {
+	height: 336px;
+	width: 224px;
+	background-image: url(../svg/ravelry-bunny-hat.svg);
+	position: absolute;
+	top: 450px;
+	left: 775px;
+	z-index: 4;
+}
+
+#postilla-hat {
+	height: 592px;
+	width: 363px;
+	background-image: url(../svg/postilla-hat.svg);
+	position: absolute;
+	top: 808px;
+	left: 636px;
+	z-index: 2;
+}
+
+#purl-ombre {
+	height: 592px;
+	width: 423px;
+	background-image: url(../svg/purl-ombre.svg);
+	position: absolute;
+	top: 809px;
+	left: 0px;
+	z-index: 5;
+}
+
+#ravelry-cable {
+	height: 445px;
+	width: 328px;
+	background-image: url(../svg/ravelry-cable.svg);
+	position: absolute;
+	top: 955px;
+	left: 325px;
+	z-index: 6;
+}
+
+footer {
+	position: relative;
+	top: 80px;
+}
