@@ -10,6 +10,14 @@ body {
 	padding: 40px 90px 0 90px;
 }
 
+#tutorial-search {
+	/* style reset for the search input tag */
+	-webkit-appearance: none;
+	-moz-appearance: none;
+	appearance: none;
+	border: none;
+}
+
 .image-row {
 	display: flex;
 	justify-content: space-around;
