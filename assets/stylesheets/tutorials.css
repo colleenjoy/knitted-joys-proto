@@ -10,6 +10,13 @@ body {
 	padding: 40px 90px 0 90px;
 }
 
+#drop-menu select {
+	/* style reset for <select/> tags */
+	-webkit-appearance: none;
+	-moz-appearance: none;
+	appearace: none;
+}
+
 .image-row {
 	display: flex;
 	justify-content: space-around;
