@@ -14,73 +14,136 @@
 	border: 25px solid #FFE6DB;
 }
 
-#wak-shirt {
-	height: 834px;
-	width: 600px;
-	background-image: url(../svg/wak-shirt.svg);
-	position: absolute;
-	top: 0px;
-	left: 0px;
-	z-index: 1;
-}
-
-#stitch-unwind {
-	height: 417px;
-	width: 425px;
-	background-image: url(../svg/stitch-unwind.svg);
-	position: absolute;
-	top: 510px;
-	left: 325px;
-	z-index: 3;
-}
-
 #purl-cable {
 	height: 592px;
 	width: 395px;
-	background-image: url(../svg/purl-cable.svg);
 	position: absolute;
 	top: 0px;
 	left: 605px; 
 }
 
-#ravelry-bunny-hat {
-	height: 336px;
-	width: 224px;
-	background-image: url(../svg/ravelry-bunny-hat.svg);
+#purl-soho-1 {
+	height: 54px;
+	width: 137px;
+	opacity: .8;
 	position: absolute;
-	top: 450px;
-	left: 775px;
-	z-index: 4;
+	top: 25px;
+	left: 650px;
+	z-index: 1;
+}
+
+#wak-shirt {
+	height: 834px;
+	width: 600px;
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	z-index: 2;
+}
+
+#wak-logo {
+	height: 54px;
+	width: 181px;
+	position: absolute;
+	top: 25px;
+	left: 25px;
+	opacity: .8;
+	z-index: 3;
 }
 
 #postilla-hat {
 	height: 592px;
 	width: 363px;
-	background-image: url(../svg/postilla-hat.svg);
 	position: absolute;
 	top: 808px;
 	left: 636px;
-	z-index: 2;
+	z-index: 4;
+}
+
+#postilla-logo {
+	height: 54px;
+	width: 182px;
+	opacity: .8;
+	position: absolute;
+	top: 833px;
+	left: 781px;
+	z-index: 5
+}
+
+#stitch-unwind {
+	height: 417px;
+	width: 425px;
+	position: absolute;
+	top: 510px;
+	left: 325px;
+	z-index: 6;
+}
+
+#stitch-unwind-logo {
+	height: 54px;
+	width: 300px;
+	opacity: .8;
+	position: absolute;
+	top: 535px;
+	left: 350px;
+	z-index: 7;
+}
+
+#ravelry-bunny-hat {
+	height: 336px;
+	width: 224px;
+	position: absolute;
+	top: 450px;
+	left: 775px;
+	z-index: 8;
+}
+
+#ravelry-logo-1 {
+	height: 54px;
+	width: 134px;
+	opacity: .8;
+	position: absolute;
+	top: 475px;
+	left: 800px;
+	z-index: 9;
 }
 
 #purl-ombre {
 	height: 592px;
 	width: 423px;
-	background-image: url(../svg/purl-ombre.svg);
 	position: absolute;
 	top: 809px;
 	left: 0px;
-	z-index: 5;
+	z-index: 10;
+}
+
+#purl-soho-2 {
+	height: 54px;
+	width: 137px;
+	opacity: .8;
+	position: absolute;
+	top: 834px;
+	left: 25px;
+	z-index: 11;
 }
 
 #ravelry-cable {
 	height: 445px;
 	width: 328px;
-	background-image: url(../svg/ravelry-cable.svg);
 	position: absolute;
 	top: 955px;
 	left: 325px;
-	z-index: 6;
+	z-index: 12;
+}
+
+#ravelry-logo-2 {
+	height: 54px;
+	width: 134px;
+	opacity: .8;
+	position: absolute;
+	top: 980px;
+	left: 350px;
+	z-index: 13;
 }
 
 footer {
