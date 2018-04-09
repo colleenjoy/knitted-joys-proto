@@ -6,8 +6,14 @@
 
 .categories h4 {
 	display: inline-block;
+	font-size: 14px;
+	font-weight: 400;
 	padding: 10px 50px;
 	color: #5E1E02;
+}
+
+.categories h4:hover {
+	color: #A03203;
 }
 
 .post {
