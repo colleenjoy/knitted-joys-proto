@@ -10,11 +10,62 @@ body {
 	padding: 40px 90px 0 90px;
 }
 
-#drop-menu select {
+.drop-menu {
+	position: relative;
+}
+
+.drop-menu select {
 	/* style reset for <select/> tags */
 	-webkit-appearance: none;
-	-moz-appearance: none;
-	appearace: none;
+	   -moz-appearance: none;
+			 appearace: none;
+	border: 1px solid #D16333;
+	color: #D16333;
+	background-color: #fff;
+	padding: 3px;
+	font-weight: 200;
+}
+
+#drop-menu-icon {
+	position: absolute;
+	top: 9px;
+	right: 10px;
+	height: 7px;
+	width: 13px;
+	background-image: url(../svg/drop-menu-icon.svg);
+}
+
+#tutorial-search {
+	/* style reset for the search input tag */
+	-webkit-appearance: none;
+	   -moz-appearance: none;
+			appearance: none;
+	border: none;
+	border-bottom: 1px solid #D16333;
+}
+
+.search {
+	position: relative;
+	color: #D16333;
+}
+
+.search input {
+	color: #D16333;
+}
+
+.search p {
+	position: absolute;
+	top: 2px;
+}
+
+#search-icon {
+	display: inline-block;
+	position: absolute;
+	top: 4px;
+	right: 5px;
+	height: 13px;
+	width: 14px;
+	background-image: url(../svg/search-icon.svg);
 }
 
 .image-row {
@@ -24,6 +75,7 @@ body {
 }
 
 .image-row a {
+	position: relative;
 	color: #5E1E02;
 }
 
@@ -33,40 +85,13 @@ body {
 	margin-bottom: 20px;
 }
 
-#long-tail-cast-on {
-	background-image: url(../svg/long-tail-cast-on.svg);
-}
-
-#cable-stitch {
-	background-image: url(../svg/cable-stitch.svg);
-}
-
-#three-needle-bind-off {
-	background-image: url(../svg/three-needle-bind-off.svg);
-}
-
-#picking-up-stitches {
-	background-image: url(../svg/picking-up-stitches.svg);
-}
-
-#kitchner-stitch {
-	background-image: url(../svg/kitchner-stitch.svg);
-}
-
-#brioche-stitch {
-	background-image: url(../svg/brioche-stitch.svg);
-}
-
-#magic-loop {
-	background-image: url(../svg/magic-loop.svg);
-}
-
-#rik-rak-rib-stitch {
-	background-image: url(../svg/rik-rak-rib-stitch.svg);
-}
-
-#slip-slip-knit {
-	background-image: url(../svg/slip-slip-knit.svg);
+.purl-soho {
+	position: absolute;
+	height: 54px;
+	width: 137px;
+	opacity: .8;
+	top: 0;
+	left: 0;
 }
 
 .bottom-row {
