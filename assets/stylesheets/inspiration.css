@@ -1,5 +1,8 @@
 /*				Inspiration 					*/
 
+body {
+	min-width: 1065px;
+}
 
 .image-grid {
 	height: 1500px;
