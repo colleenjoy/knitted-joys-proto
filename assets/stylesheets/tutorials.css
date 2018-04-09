@@ -10,12 +10,11 @@ body {
 	padding: 40px 90px 0 90px;
 }
 
-#tutorial-search {
-	/* style reset for the search input tag */
+#drop-menu select {
+	/* style reset for <select/> tags */
 	-webkit-appearance: none;
 	-moz-appearance: none;
-	appearance: none;
-	border: none;
+	appearace: none;
 }
 
 .image-row {
