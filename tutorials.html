@@ -41,18 +41,17 @@
 		<section class="filters">
 			<div class="drop-menu">
 				<div id="drop-menu-icon"></div>
-				<select name="category">
-					<option value="Category" selected>Category</option>
-					<option value="Basics">Basics</option>
-					<option value="Decorative Stitches">Decorative Stitches</option>
-					<option value="Increases">Increases</option>
-					<option value="Decreases">Decreases</option>
+				<select onchange="filter()" name="category">
+					<option value="category" selected>Category</option>
+					<option value="basics">Basics</option>
+					<option value="decorative-stitches">Decorative Stitches</option>
+					<option value="increases">Increases</option>
+					<option value="decreases">Decreases</option>
 				</select>
 			</div>
 
 			<div class="search">
-				<input type="search" id="tutorial-search" name="q">
-				<p>Search tutorials</p>
+				<input type="search" id="tutorial-search" name="q" placeholder="Search tutorials">
 				<div id="search-icon"></div>
 			</div>
 
@@ -66,7 +65,7 @@
 				<h4>Long Tail Cast On</h4>
 			</a>
 
-			<a href="https://www.purlsoho.com/create/cable/">
+			<a href="https://www.purlsoho.com/create/cable/" data-category="decorative-stitches">
 				<img class="thumbnail" src="assets/images/cable-stitch.jpg">
 				<img class="purl-soho" src="assets/images/purl-soho.png">
 				<h4>Cable Stitch</h4>
@@ -136,6 +135,8 @@
 				<a href="shop.html">Shop</a>
 			</nav>
 		</footer>	
+
+		<script src="assets/js/tutorials.js"></script>
 	</body>
 </html>
 

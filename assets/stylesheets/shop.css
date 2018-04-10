@@ -1,1 +1,108 @@
 /*					shop					*/
+
+body {
+	min-width: 1340px;
+}
+
+.image-grid {
+	margin: 40px;
+}
+
+.small-image {
+	height: 400px;
+	width: 400px;
+	margin: 0px 6px 8px 0px;
+	display: inline-block;
+}
+
+.big-image {
+	width: 606px;
+	height: 400px;
+	margin: 0 6px 8px 0;
+	display: inline-block;
+}
+
+.item-info {
+	width: 300px;
+	background: #FFE6DB;
+	border-radius: 5px;
+	display: flex;
+	justify-content: space-between;
+	padding: 8px 5px;
+	margin-right: auto;
+	margin-left: auto;
+	position: relative;
+	top: 355px;
+}
+
+.add-cart {
+	font-weight: 500;
+	color: #D16333;
+	opacity: 0;
+}
+
+.small-image:hover .add-cart,
+.big-image:hover .add-cart {
+	opacity: 1;
+}
+
+.small-image:hover .item-label,
+.small-image:hover .item-price,
+.big-image:hover .item-label,
+.big-image:hover .item-price {
+	opacity: 0;
+}
+
+.item-label {
+	font-weight: 400;
+	color: #D16333;
+}
+
+.item-price {
+	font-weight: 400;
+	color: #5E1E02;
+}
+
+#cables-hat {
+	background-image: url(../images/cables-hat.jpg);
+	background-size: cover;
+}
+
+#comfort-cowl {
+	background-image: url(../images/comfort-cowl.jpg);
+	background-size: cover;
+}
+
+#big-pom-hat {
+	background-image: url(../images/big-pom-hat.jpg);
+	background-size: cover;
+}
+
+#twist-headband {
+	background-image: url(../images/twist-headband.jpg);
+	background-size: cover;
+}
+
+#popcorn-cowl {
+	background-image: url(../images/popcorn-cowl.jpg);
+	background-size: cover;
+}
+
+#chevron-striped-bowtie {
+	background-image: url(../images/colorwork-bowtie.jpg);
+	background-size: cover;
+	background-position: -70px 0;
+}
+
+#bobble-cowl {
+	background-image: url(../images/bobble-cowl.jpg);
+	background-size: cover;
+	background-position: -200px 0;
+}
+
+#wave-mitts {
+	background-image: url(../images/wave-mitts.jpg);
+	background-size: cover;
+	background-position: -130px 0;
+
+}

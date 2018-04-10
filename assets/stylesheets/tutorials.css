@@ -22,17 +22,20 @@ body {
 	border: 1px solid #D16333;
 	color: #D16333;
 	background-color: #fff;
-	padding: 3px;
+	padding: 3px 28px 3px 3px;
 	font-weight: 200;
 }
 
 #drop-menu-icon {
 	position: absolute;
+	pointer-events: none;
 	top: 9px;
 	right: 10px;
 	height: 7px;
 	width: 13px;
 	background-image: url(../svg/drop-menu-icon.svg);
+	background-size: contain;
+	background-repeat: no-repeat;
 }
 
 #tutorial-search {
@@ -49,13 +52,28 @@ body {
 	color: #D16333;
 }
 
-.search input {
+::-webkit-input-placeholder {
 	color: #D16333;
 }
 
-.search p {
-	position: absolute;
-	top: 2px;
+:-moz-placeholder {
+	color: #D16333;
+}
+
+::-moz-placeholder {
+	color: #D16333;
+}
+
+:-ms-input-placeholder {
+	color: #D16333;
+}
+
+::-ms-input-placeholder {
+	color: #D16333;
+}
+
+::placeholder {
+	color: #D16333;
 }
 
 #search-icon {
@@ -71,6 +89,8 @@ body {
 .image-row {
 	display: flex;
 	justify-content: space-around;
+	flex-wrap: wrap;
+	width: 
 	margin: 40px 40px;
 }
 
