@@ -86,17 +86,17 @@ body {
 	background-image: url(../svg/search-icon.svg);
 }
 
-.image-row {
+.image-grid {
 	display: flex;
-	justify-content: space-around;
+	justify-content: space-between;
 	flex-wrap: wrap;
-	width: 
 	margin: 40px 40px;
 }
 
-.image-row a {
+.image-grid a {
 	position: relative;
 	color: #5E1E02;
+	margin-bottom: 40px;
 }
 
 .thumbnail {
@@ -112,8 +112,4 @@ body {
 	opacity: .8;
 	top: 0;
 	left: 0;
-}
-
-.bottom-row {
-	margin-bottom: 80px;
 }

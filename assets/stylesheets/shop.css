@@ -24,43 +24,75 @@ body {
 
 .item-info {
 	width: 300px;
+	height: 18px;
 	background: #FFE6DB;
 	border-radius: 5px;
-	display: flex;
-	justify-content: space-between;
+	display: block;
 	padding: 8px 5px;
 	margin-right: auto;
 	margin-left: auto;
 	position: relative;
 	top: 355px;
+	text-align: justify;
 }
 
-.add-cart {
+.item-label {
+	font-weight: 400;
+	color: #D16333;
+	display: inline-block;
+	position: absolute;
+	left: 5px;
+}
+
+.view-details {
 	font-weight: 500;
 	color: #D16333;
-	opacity: 0;
+	display: none;
+	position: absolute;
 }
 
-.small-image:hover .add-cart,
-.big-image:hover .add-cart {
-	opacity: 1;
+.item-price {
+	font-weight: 400;
+	color: #5E1E02;
+	display: inline-block;
+	position: absolute;
+	right: 5px;
+}
+
+.hover-item-info {
+	display: block;
+	position: relative;
+	top: 10px;
+}
+
+.hover-item {
+	font-weight: 300;
+	font-size: 1rem;
+	display: none;
+	background: #FFE6DB;
+	border-radius: 5px;
+	padding: 8px 5px;
+	position: absolute;
+	margin: 5px 10px; 
+}
+
+.small-image:hover .view-details,
+.big-image:hover .view-details {
+	display: inline-block;
+	width: 100%;
+	text-align: center;
 }
 
 .small-image:hover .item-label,
 .small-image:hover .item-price,
 .big-image:hover .item-label,
 .big-image:hover .item-price {
-	opacity: 0;
+	display: none;
 }
 
-.item-label {
-	font-weight: 400;
-	color: #D16333;
-}
-
-.item-price {
-	font-weight: 400;
-	color: #5E1E02;
+.small-image:hover .hover-item,
+.big-image:hover .hover-item {
+	display: inline-block;
 }
 
 #cables-hat {
@@ -71,6 +103,7 @@ body {
 #comfort-cowl {
 	background-image: url(../images/comfort-cowl.jpg);
 	background-size: cover;
+	background-position: -100px 0;
 }
 
 #big-pom-hat {
