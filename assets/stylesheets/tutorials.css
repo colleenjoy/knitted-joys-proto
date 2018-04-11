@@ -1,8 +1,5 @@
 /*					tutorials						*/
 
-body {
-	min-width: 1000px;
-}
 
 .filters {
 	display: flex;
@@ -45,11 +42,11 @@ body {
 			appearance: none;
 	border: none;
 	border-bottom: 1px solid #D16333;
+	color: #D16333;
 }
 
 .search {
 	position: relative;
-	color: #D16333;
 }
 
 ::-webkit-input-placeholder {
