@@ -4,7 +4,9 @@
 	text-align: center;
 }
 
-.categories h4 {
+.categories button {
+	background: none;
+	border: none;
 	display: inline-block;
 	font-size: 14px;
 	font-weight: 400;
@@ -12,7 +14,7 @@
 	color: #5E1E02;
 }
 
-.categories h4:hover {
+.categories button:hover {
 	color: #A03203;
 }
 

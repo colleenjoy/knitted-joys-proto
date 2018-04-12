@@ -5,20 +5,22 @@ body {
 }
 
 .image-grid {
-	margin: 40px;
+	display: block;
+	width: 1230px;
+	margin: 40px auto;
 }
 
 .small-image {
 	height: 400px;
 	width: 400px;
-	margin: 0px 6px 8px 0px;
+	margin: 0px 7px 7px 0px;
 	display: inline-block;
 }
 
 .big-image {
-	width: 606px;
+	width: 605px;
 	height: 400px;
-	margin: 0 6px 8px 0;
+	margin: 0 7px 7px 0;
 	display: inline-block;
 }
 
