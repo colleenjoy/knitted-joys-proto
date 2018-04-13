@@ -1,0 +1,122 @@
+/*			shared styling for product pages		*/
+
+body {
+	min-width: 1050px;
+}
+
+.description-image {
+	width: 500px;
+	height: 641px;
+	display: inline-block;
+	margin: 0 20px;
+}
+
+.pic-ordering {
+	width: 1050px;
+	margin: 60px auto;
+	display: block;
+}
+
+.item-ordering {
+	width: 420px;
+	display: inline-block;
+	margin: 0 20px;
+	vertical-align: top;
+	color: #5E1E02;
+}
+
+.product-name {
+	margin-bottom: 10px;
+	text-transform: uppercase;
+	font-weight: 400;
+	font-size: 2rem;
+}
+
+.price {
+	color: hsla(18, 96%, 19%, 0.75);
+}
+
+.item-info {
+	display: flex;
+	justify-content: space-between;
+	font-weight: 400;
+	text-transform: uppercase;
+}
+
+.item-info h4 {
+	font-size: .75rem;
+}
+
+/*	Form styling: */
+
+.drop-menu {
+	position: relative;
+}
+
+.drop-menu select {
+	/* style reset for <select/> tags */
+	-webkit-appearance: none;
+	   -moz-appearance: none;
+			 appearace: none;
+	border: 1px solid #5E1E02;
+	background: #fff;
+	border-radius: 0;
+	width: 420px;
+	font-size: 1.2rem;
+	padding: 15px 10px;
+	margin-top: 20px;
+	color: #5E1E02;
+}
+
+#drop-menu-icon {
+	position: absolute;
+	pointer-events: none;
+	top: 38px;
+	right: 10px;
+	height: 18px;
+	width: 36px;
+	background-image: url(../svg/red-drop-menu-icon.svg);
+	background-size: contain;
+	background-repeat: no-repeat;
+}
+
+.pattern-only-checkbox {
+	font-weight: 400;
+	font-size: 1.2rem;
+	margin: 30px 10px 15px 10px;
+	display: flex;
+	justify-content: space-between;
+}
+
+.pattern-only-checkbox input {
+	/* style reset for checkbox */
+	-webkit-appearance: none;
+	   -moz-appearance: none;
+			 appearace: none;
+	height: 30px;
+	width: 30px;
+	border: 1px solid #5E1E02;
+	position: relative;
+	top: -10px;
+	right: -1px;
+}
+
+.total-price {
+	display: flex;
+	justify-content: space-between;
+	padding-bottom: 20px;
+	border-bottom: 1px solid #5E1E02;
+}
+
+.total-price h2 {
+	font-size: 2rem;
+}
+
+.btn-part {
+	display: inline;
+}
+
+#cables-hat {
+	background-image: url(../images/cables-hat.jpg);
+	background-size: cover;
+}

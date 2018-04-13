@@ -157,8 +157,11 @@ footer nav a {
 
 .banner {
   border-bottom: #D16333 1px solid;
-  color: #5E1E02;
   text-transform: uppercase;
   text-align: center;
   padding: 75px; 
+}
+
+.banner a {
+  color: #5E1E02;
 }

@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+	<head>
+		<link href="https://fonts.googleapis.com/css?family=Lato:100,300,400" rel="stylesheet">
+		<link rel="stylesheet" type="text/css" href="../assets/stylesheets/shared.css">
+		<link rel="stylesheet" type="text/css" href="../assets/stylesheets/product-pages.css">
+		<meta charset="utf-8">
+		<title>Knitted Joys</title>
+	</head>
+
+	<body>
+		<header>
+			<h1 class="logo">
+				<a href="../index.html">Knitted <br> Joys</a>
+			</h1>
+
+			<div class="tagline-nav">
+
+				<div class="tagline">
+					<h3>Knitting my way through the chaos</h3>
+				</div>
+
+				<nav>
+					<a href="../index.html">Home</a>
+					<a href="../about.html">About</a>
+					<a href="../tutorials.html">Tutorials</a>
+					<a href="../inspiration.html">Inspiration</a>
+					<a href="../blog.html">Blog</a>
+					<a href="../shop.html">Shop</a>
+				</nav>
+
+			</div>
+		</header>
+
+		<section class="banner">
+			<a href="../shop.html"><h1>Shop</h1></a>
+		</section>
+
+		<section class="pic-ordering">
+			<div class="description-image" id="cables-hat"></div>
+
+			<div class="item-ordering">
+				<h2 class="product-name">Cables Hat</h2>
+				<div class="item-info">
+					<h4>difficulty: intermediate</h4>
+					<h4 class="price">from $7.00</h4>
+				</div>
+
+				<!--   Size  -->
+				
+				<div class="drop-menu">
+					<div id="drop-menu-icon"></div>
+					<select onchange="filter(event)" name="size">
+						<option value="" selected>Size</option>
+						<option value="one-size">One Size (1 ball)</option>
+						<option value="blue">Blue</option>
+						<option value="green">Green</option>
+						<option value="red">Red</option>
+						<option value="white">White</option>
+						<option value="black">Black</option>
+					</select>
+				</div>
+
+				<!-- 	Color	-->
+
+				<div class="drop-menu">
+					<div id="drop-menu-icon"></div>
+					<select onchange="filter(event)" name="size">
+						<option value="" selected>Color</option>
+						<option value="blue">Blue</option>
+						<option value="green">Green</option>
+						<option value="red">Red</option>
+						<option value="white">White</option>
+						<option value="black">Black</option>
+					</select>
+				</div>
+
+				<!-- 	Knitting Needles	-->
+
+				<div class="drop-menu">
+					<div id="drop-menu-icon"></div>
+					<select onchange="filter(event)" name="size">
+						<option value="" selected>Knitting Needles - US 7</option>
+						<option value="include">Include</option>
+						<option value="do-not-include">Do Not Include</option>
+					</select>
+				</div>
+
+				<!-- 	Pattern Only 	-->
+				
+				<div class="pattern-only-checkbox">
+					<h4>Pattern Only </h4>
+					<input type="checkbox" name="pattern-only" value="pattern-only">
+				</div>
+
+				<!-- 	total and add to cart 	-->
+				
+				<div class="total-price">
+					<h2>Kit Total</h2>
+					<h2>$40.00</h2>
+				</div>
+
+				<div>
+					<h2 class="btn-part">Quantity</h2>
+					<button class="btn-part">-</button>
+					<input type="number" name="qty" class="btn-part">
+					<button class="btn-part">+</button>
+					<button class="btn-part">Add To Cart</button>
+				</div>
+
+			</div>
+		</section>
+
+		<section class="item-description">
+			
+		</section>
+
+		<footer>
+
+			<small>Knitted Joys</small>
+
+			<nav>
+				<a href="../index.html">Home</a>
+				<a href="../about.html">About</a>
+				<a href="../tutorials.html">Tutorials</a>
+				<a href="../inspiration.html">Inspiration</a>
+				<a href="../blog.html">Blog</a>
+				<a href="../shop.html">Shop</a>
+			</nav>
+		</footer>	
+	</body>
+</html>
