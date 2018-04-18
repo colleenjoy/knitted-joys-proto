@@ -71,7 +71,7 @@ function cart() {
 	document.getElementById('cart-qty').innerHTML = newQty;
 	document.getElementById('cart-qty').dataset.qty = newQty;
 	// need to add the $ back into the price
-	document.getElementById('cart-total').innerHTML = newTotal + '.00';
+	document.getElementById('cart-total').innerHTML = '$' + newTotal + '.00';
 	document.getElementById('cart-total').dataset.price = newTotal;
 
 	// make shopping cart visible
@@ -90,6 +90,11 @@ function disable() {
 		selectTag.forEach (function (select) {
 			Array.from(select.options).forEach (function (option) {
 				option.disabled = true;
+				select.style.border = '1px solid #8B7065';
+				select.style.color = '#8B7065';
+				document.querySelectorAll('.drop-menu-icon').forEach (function(icon) {
+						icon.style.backgroundImage = 'url(../assets/svg/shop-drop-menu-icon-disabled.svg)';
+				})
 			})
 			// reset option tags
 			select.options[0].selected = true;
@@ -104,6 +109,11 @@ function disable() {
 		selectTag.forEach (function (select) {
 			Array.from(select.options).forEach (function (option) {
 				option.disabled = false;
+				select.style.border = '1px solid #5E1E02';
+				select.style.color = '#5E1E02';
+				document.querySelectorAll('.drop-menu-icon').forEach (function(icon) {
+						icon.style.backgroundImage = 'url(../assets/svg/shop-drop-menu-icon.svg)';
+				})
 			})
 		})
 		

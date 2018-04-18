@@ -54,33 +54,62 @@
 				<!--   Size  -->
 				
 				<div class="drop-menu">
-					<div id="drop-menu-icon"></div>
+					<div class="drop-menu-icon"></div>
+					<label for="size">Size</label>
 					<select onchange="priceChange()" name="size" required>
-						<option value="" selected data-price="0">Size</option>
-						<option value="one-size" data-price="30">One Size (3 balls)</option>
+						<option value="" selected data-price="0">Not Selected</option>
+						<option value="one-size" data-price="0">One Size (1 ball per color chosen)</option>
 					</select>
 				</div>
 
 				<!-- 	Color	-->
 
 				<div class="drop-menu">
-					<div id="drop-menu-icon"></div>
-					<select onchange="priceChange()" name="color" required>
-						<option value="" selected data-price="0">Yarn Color - Choose 3</option>
-						<option value="blue" data-price="0">Blue</option>
-						<option value="green" data-price="0">Green</option>
-						<option value="red" data-price="0">Red</option>
-						<option value="white" data-price="0">White</option>
-						<option value="black" data-price="0">Black</option>
+					<div class="drop-menu-icon"></div>
+					<label for="color-main">Yarn Color: Main</label>
+					<select onchange="priceChange()" name="color-main" required>
+						<option value="" selected data-price="0"> Not Selected</option>
+						<option value="blue" data-price="10">Blue</option>
+						<option value="green" data-price="10">Green</option>
+						<option value="red" data-price="10">Red</option>
+						<option value="white" data-price="10">White</option>
+						<option value="black" data-price="10">Black</option>
+					</select>
+				</div>
+
+				<div class="drop-menu">
+					<div class="drop-menu-icon"></div>
+					<label for="color-accent-1">Yarn Color: Accent 1</label>
+					<select onchange="priceChange()" name="color-accent-1" required>
+						<option value="" selected data-price="0">Not Selected</option>
+						<option value="blue" data-price="10">Blue</option>
+						<option value="green" data-price="10">Green</option>
+						<option value="red" data-price="10">Red</option>
+						<option value="white" data-price="10">White</option>
+						<option value="black" data-price="10">Black</option>
+					</select>
+				</div>
+
+				<div class="drop-menu">
+					<div class="drop-menu-icon"></div>
+					<label for="color-accent-2">Yarn Color: Accent 2</label>
+					<select onchange="priceChange()" name="color-accent-2" required>
+						<option value="" selected data-price="0">Not Selected</option>
+						<option value="blue" data-price="10">Blue</option>
+						<option value="green" data-price="10">Green</option>
+						<option value="red" data-price="10">Red</option>
+						<option value="white" data-price="10">White</option>
+						<option value="black" data-price="10">Black</option>
 					</select>
 				</div>
 
 				<!-- 	Knitting Needles	-->
 
 				<div class="drop-menu">
-					<div id="drop-menu-icon"></div>
+					<div class="drop-menu-icon"></div>
+					<label for="knitting-needles">Knitting Needles: US 7 Bamboo</label>
 					<select onchange="priceChange()" name="knitting-needles" required>
-						<option value="" selected data-price="0">Knitting Needles (US 7) - Not Included</option>
+						<option value="" selected data-price="0"> Do Not Include</option>
 						<option value="include" data-price="10">Include</option>
 					</select>
 				</div>
@@ -89,7 +118,7 @@
 				
 				<div class="pattern-only-checkbox">
 					<label for="pattern-only">Pattern Only </label>
-					<input type="checkbox" name="pattern-only" value="pattern-only" onclick="disable()" data-price="5">
+					<input type="checkbox" name="pattern-only" value="pattern-only" onclick="disable()" data-price="9">
 				</div>
 
 				<!-- 	total and add to cart 	-->
