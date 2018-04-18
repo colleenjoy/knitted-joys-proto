@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 
 <html lang = "en">
-
+	
 	<head>
 		<link href="https://fonts.googleapis.com/css?family=Lato:100,300,400" rel="stylesheet">
 		<link rel="stylesheet" type="text/css" href="assets/stylesheets/shared.css">
@@ -10,7 +10,7 @@
 		<title>Knitted Joys</title>
 	</head>
 
-	<body>
+	<body class="preload">
 		<header>
 			<h1 class="logo">
 				<a href="index.html">Knitted <br> Joys</a>
@@ -24,19 +24,15 @@
 
 				<nav>
 					<a href="index.html">Home</a>
-					<a href="about.html">About</a>
+					<a href="shop.html">Shop</a>
+					<a href="blog.html">Blog</a>
 					<a href="tutorials.html">Tutorials</a>
 					<a href="inspiration.html">Inspiration</a>
-					<a href="blog.html">Blog</a>
-					<a href="shop.html">Shop</a>
+					<a href="about.html" id="current-page">About</a>
 				</nav>
 
 			</div>
 		</header>
-
-		<section class="banner">
-			<a href="about.html"><h1>About Me</h1></a>
-		</section>
 
 		<section>
 			<div class="about-image"></div>
@@ -79,26 +75,25 @@
 			</h2>
 
 			<form>
-				<label>
-					Name
-					<input type="text" name="name" required>
-				</label>
-				<label>
-					Email
-					<input type="email" name="email" required>
-				</label>
-				<label>
-					Subject
-					<input type="text" name="subject">
-				</label>
-				<label>
-					Message
-					<textarea name="message" required></textarea>
-				</label>
+				<label> Name </label>
+				<input type="text" name="name" required>
+
+				<label>Email</label>
+				<input type="email" name="email" required>
+
+				<label>Subject</label>
+				<input type="text" name="subject">
+
+				<label>Message</label>
+				<textarea name="message" required></textarea>
 				
 				<input class="submit" type="submit" name="submit" value="Send Message">
 				
 			</form>
+
+			<h4 class="disclaimer">
+				This is an example form. No messages will be sent from here. This site is for modeling purposes only.
+			</h4>
 			
 		</section>
 
@@ -108,13 +103,13 @@
 
 			<nav>
 				<a href="index.html">Home</a>
-				<a href="about.html">About</a>
+				<a href="shop.html">Shop</a>
+				<a href="blog.html">Blog</a>
 				<a href="tutorials.html">Tutorials</a>
 				<a href="inspiration.html">Inspiration</a>
-				<a href="blog.html">Blog</a>
-				<a href="shop.html">Shop</a>
+				<a href="about.html">About</a>
 			</nav>
 		</footer>
 	</body>
-
+	<script src="assets/js/shared.js"></script>
 </html>

@@ -1,5 +1,8 @@
 /*					tutorials						*/
 
+.banner {
+	display: none;
+}
 
 .filters {
 	display: flex;

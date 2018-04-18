@@ -24,28 +24,25 @@
 
 				<nav>
 					<a href="index.html">Home</a>
-					<a href="about.html">About</a>
+					<a href="shop.html">Shop</a>
+					<a href="blog.html" id="current-page">Blog</a>
 					<a href="tutorials.html">Tutorials</a>
 					<a href="inspiration.html">Inspiration</a>
-					<a href="blog.html">Blog</a>
-					<a href="shop.html">Shop</a>
+					<a href="about.html">About</a>
 				</nav>
 
 			</div>
 		</header>
 
-		<section class="banner">
-			<a href="blog.html"><h1>Blog</h1></a>
-		</section>
-
 		<section class="categories">
+			<button name="all-posts" onclick="filter(event)">All Posts</button>
 			<button name="pattern-releases" onclick="filter(event)">Pattern Releases</button>
 			<button name="tutorials" onclick="filter(event)">Tutorials</button>
 			<button name="knitting-adventures" onclick="filter(event)">Knitting Adventures</button>
 		</section>
 
 		<section class="posts-page">
-			<section class="post" data-category="pattern-releases">
+			<section class="post" data-category='["pattern-releases", "all-posts"]'>
 				<div class="post-title">
 					<h2>NEW PATTERN</h2>
 					<h2>bow tie with chevron stripes</h2>
@@ -59,7 +56,7 @@
 				</div>
 			</section>
 
-			<section class="post" data-category="knitting-adventures">
+			<section class="post" data-category='["knitting-adventures", "all-posts"]'>
 				<div class="post-title">
 					<h2>ADVENTURE</h2>
 					<h2>fourth time's the charm?</h2>
@@ -73,7 +70,7 @@
 				</div>
 			</section>
 
-			<section class="post" data-category="tutorials">
+			<section class="post" data-category='["tutorials", "all-posts"]'>
 				<div class="post-title">
 					<h2>TUTORIAL</h2>
 					<h2>dying yarn yourself</h2>
@@ -95,15 +92,16 @@
 
 			<nav>
 				<a href="index.html">Home</a>
-				<a href="about.html">About</a>
+				<a href="shop.html">Shop</a>
+				<a href="blog.html">Blog</a>
 				<a href="tutorials.html">Tutorials</a>
 				<a href="inspiration.html">Inspiration</a>
-				<a href="blog.html">Blog</a>
-				<a href="shop.html">Shop</a>
+				<a href="about.html">About</a>
 			</nav>
 		</footer>	
 
 		<script src="assets/js/blog.js"></script>
+		<script src="assets/js/shared.js"></script>
 	</body>
 </html>
 

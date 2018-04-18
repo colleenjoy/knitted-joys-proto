@@ -27,6 +27,7 @@ body {
   padding-bottom: 5px;
 }
 
+
 .contact-form {
   color: #D16333;
   text-align: center;
@@ -34,8 +35,8 @@ body {
 }
 
 form {
-  display: inline-block;
-  align-content: center;
+  margin: 0 auto;
+  width: 400px;
 }
 
 label {

@@ -4,6 +4,36 @@ body {
 	min-width: 1050px;
 }
 
+/* hidden added to cart bloop */
+
+.shopping-cart {
+	color: #fff;
+	background: #5E1E02;
+	width: 200px;
+	border-radius: 20px;
+	padding: 5px 0;
+	position: absolute;
+	top: 165px;
+	left: 810px;
+	opacity: 0;
+}
+
+.shopping-cart-part {
+	display: inline;
+	margin-left: 5px;
+}
+
+#cart-total {
+	margin-left: 40px;
+}
+
+.shopping-cart img {
+	position: relative;
+	height: 1.1rem;
+	top: 2px;
+	margin-left: 21px;
+}
+
 .description-image {
 	width: 500px;
 	height: 641px;
@@ -13,7 +43,8 @@ body {
 
 .pic-ordering {
 	width: 1050px;
-	margin: 60px auto;
+	margin: 0 auto;
+	padding: 60px 0;
 	display: block;
 }
 
@@ -73,10 +104,10 @@ body {
 #drop-menu-icon {
 	position: absolute;
 	pointer-events: none;
-	top: 48px;
-	right: 10px;
+	top: 52px;
+	right: 16px;
 	height: 18px;
-	width: 36px;
+	width: 22px;
 	background-image: url(../svg/red-drop-menu-icon.svg);
 	background-size: contain;
 	background-repeat: no-repeat;
@@ -95,12 +126,18 @@ body {
 	-webkit-appearance: none;
 	   -moz-appearance: none;
 			 appearace: none;
-	height: 30px;
-	width: 30px;
+	height: 28px;
+	width: 28px;
 	border: 1px solid #5E1E02;
 	position: relative;
-	top: -10px;
+	top: -7px;
 	right: -1px;
+}
+
+input[type='checkbox']:checked {
+    background: url(../svg/checked.svg);
+    background-position: contain;
+    background-repeat: no-repeat;
 }
 
 .total-price {
@@ -122,6 +159,16 @@ body {
 
 .btn-part {
 	display: inline;
+}
+
+input[type=number] {
+	width: 2em;
+}
+
+#qty {
+	color: #5E1E02;
+	text-align: center;
+	font-size: 1.2rem;
 }
 
 ::-webkit-input-placeholder {
@@ -187,8 +234,9 @@ body {
 
 .item-description {
 	width: 1010px;
-	margin: 0 auto 40px auto;
+	margin: 0 auto;
 	color: #5E1E02;
+	padding-bottom: 40px;
 }
 
 .item-description h3 {
@@ -204,4 +252,45 @@ body {
 #cables-hat {
 	background-image: url(../images/cables-hat.jpg);
 	background-size: cover;
+}
+
+#comfort-cowl {
+	background-image: url(../images/comfort-cowl.jpg);
+	background-size: contain;
+	background-repeat: no-repeat;
+}
+
+#big-pom-hat {
+	background-image: url(../images/big-pom-hat.jpg);
+	background-size: cover;
+}
+
+#twist-headband {
+	background-image: url(../images/twist-headband.jpg);
+	background-size: cover;
+	background-position: -350px 0;
+}
+
+#popcorn-cowl {
+	background-image: url(../images/popcorn-cowl.jpg);
+	background-size: cover;
+	background-position: -200px 0;
+}
+
+#chevron-bowtie {
+	background-image: url(../images/colorwork-bowtie.jpg);
+	background-size: cover;
+	background-position: -220px 0;
+}
+
+#bobble-cowl {
+	background-image: url(../images/bobble-cowl.jpg);
+	background-size: cover;
+	background-position: -360px 0;
+}
+
+#wave-mitts {
+	background-image: url(../images/wave-mitts.jpg);
+	background-size: contain;
+	background-repeat: no-repeat;
 }

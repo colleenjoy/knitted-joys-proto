@@ -10,7 +10,7 @@ function filter(event) {
 
 	var filteredList = postList.filter(function(post) {
 		
-		return post.dataset.category === event.target.name;
+		return (post.dataset.category.indexOf(event.target.name) > -1);
 	})
 	console.log(filteredList)
 	var postsPage = document.querySelector('.posts-page');
