@@ -217,6 +217,7 @@ input[type=number] {
 #minus,
 #plus {
 	border: none;
+	background: none;
 }
 
 #add-cart {

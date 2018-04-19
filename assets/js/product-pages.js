@@ -129,20 +129,26 @@ function priceChange() {
 	// get the data price attributes from all the selected options
 	var selectTags = Array.from(document.querySelectorAll('.drop-menu select'));
 	var patternPrice = parseInt(document.querySelector('.pattern-only-checkbox input').dataset.price);
-	var totalPrice = patternPrice;
+	var unitPrice = patternPrice;
 	selectTags.forEach( function(select) {
 		var selectedOption = select.selectedIndex;
 		var optionPrice = parseInt(select.options[selectedOption].dataset.price);
 		//add them together
-		totalPrice = totalPrice + optionPrice;
+		unitPrice = unitPrice + optionPrice;
 	})
+
+	//get quantity
+	var quantity = parseInt(document.getElementById('qty').value);
+
+	//get total price
+	var totalPrice = unitPrice * quantity;
 
 	// change the price on the page and in the data attribute
 	document.getElementById('total').innerHTML = '$' + totalPrice + '.00';
 	document.getElementById('total').dataset.price = totalPrice;
 
 	//set the full price of one item based on the options chosen
-	document.getElementById('total').dataset.unitprice = totalPrice;
+	document.getElementById('total').dataset.unitprice = unitPrice;
 	
 
 }

@@ -104,9 +104,9 @@
 
 				<div class="quantity-add">
 					<h2 class="btn-part">Quantity</h2>
-					<button class="btn-part" id="minus" onclick="minus()" onclick="priceChange()">-</button>
-					<input type="number" name="qty" class="btn-part" id="qty" size="3" placeholder="1" required value="1">
-					<button class="btn-part" id="plus" onclick="plus()" onclick="priceChange()">+</button>
+					<button class="btn-part" id="minus" onclick="minus()">-</button>
+					<input type="text" pattern="[0-9]*" name="qty" class="btn-part" id="qty" onchange="priceChange()" size="2" placeholder="1" required value="1">
+					<button class="btn-part" id="plus" onclick="plus()">+</button>
 					<button class="btn-part" id="add-cart" onclick="cart()">Add To Cart</button>
 				</div>
 
